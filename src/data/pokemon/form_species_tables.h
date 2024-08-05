@@ -653,6 +653,25 @@ static const u16 sDudunsparceFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_DUNSPARCE
 
+static const u16 sSentretFormSpeciesIdTable[] = {
+    SPECIES_SENTRET,
+    SPECIES_SENTRET_HOENN,
+    FORM_SPECIES_END,
+};
+
+static const u16 sFurretFormSpeciesIdTable[] = {
+    SPECIES_FURRET,
+    SPECIES_FURRET_HOENN,
+    FORM_SPECIES_END,
+};
+
+static const u16 sNuumitanFormSpeciesIdTable[] = {
+    SPECIES_NUUMITAN,
+    SPECIES_NUUMITAN_EMERALD,
+    SPECIES_NUUMITAN_SAPPHIRE,
+    FORM_SPECIES_END,
+};
+
 #if P_FAMILY_QWILFISH
 static const u16 sQwilfishFormSpeciesIdTable[] = {
     SPECIES_QWILFISH,
@@ -1024,15 +1043,25 @@ static const u16 sCherrimFormSpeciesIdTable[] = {
 static const u16 sShellosFormSpeciesIdTable[] = {
     SPECIES_SHELLOS_WEST_SEA,
     SPECIES_SHELLOS_EAST_SEA,
+    SPECIES_SHELLOS_VOLCANIC,
+    SPECIES_SHELLOS_DEEP,
     FORM_SPECIES_END,
 };
 
 static const u16 sGastrodonFormSpeciesIdTable[] = {
     SPECIES_GASTRODON_WEST_SEA,
     SPECIES_GASTRODON_EAST_SEA,
+    SPECIES_GASTRODON_VOLCANIC,
+    SPECIES_GASTRODON_DEEP,
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_SHELLOS
+
+static const u16 sCroagunkFormSpeciesIdTable[] = {
+    SPECIES_CROAGUNK,
+    SPECIES_CROAGUNK_HOENN,
+    FORM_SPECIES_END,
+};
 
 #if P_FAMILY_BUNEARY
 static const u16 sLopunnyFormSpeciesIdTable[] = {
@@ -1244,6 +1273,18 @@ static const u16 sZoroarkFormSpeciesIdTable[] = {
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_ZORUA
+
+static const u16 sLarvestaFormSpeciesIdTable[] = {
+    SPECIES_LARVESTA,
+    SPECIES_LARVESTA_HOENN,
+    FORM_SPECIES_END,
+};
+
+static const u16 sVolcaronaFormSpeciesIdTable[] = {
+    SPECIES_VOLCARONA,
+    SPECIES_VOLCARONA_HOENN,
+    FORM_SPECIES_END,
+};
 
 #if P_FAMILY_DEERLING
 static const u16 sDeerlingFormSpeciesIdTable[] = {
@@ -1650,6 +1691,7 @@ static const u16 sAraquanidFormSpeciesIdTable[] = {
 static const u16 sLurantisFormSpeciesIdTable[] = {
     SPECIES_LURANTIS,
     SPECIES_LURANTIS_TOTEM,
+    SPECIES_LURANTIS_HOENN,
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_FOMANTIS

@@ -35838,3 +35838,135 @@ static const u16 sPecharuntTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_PECHARUNT
+
+static const u16 sPicassoulTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sDrampeleaTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sKramperdTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sEcteonTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sCorrodalTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sMagnelaTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sMultipleeTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sDividiTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sLumisterTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sVanternTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sLuvsicTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sCelesteonTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sAllnownTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sFossiliskTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sSolumbraTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sTellunaTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sNuumitanTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sMandiguileTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sMesmelynxTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sRegiflareTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sSlyfetchdTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sFrigitoadTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sFluttretTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sShellosVolcanicTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sShellosDeepTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sGastrodonVolcanicTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sGastrodonDeepTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sLarvestaHoennTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sVolcaronaHoennTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sCroagunkHoennTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sLurantisHoennTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sSentretHoennTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sFurretHoennTeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};

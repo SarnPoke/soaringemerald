@@ -5637,6 +5637,38 @@ static const union AnimCmd sAnim_Gastrodon_1[] =
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_END,
 };
+
+static const union AnimCmd sAnim_ShellosVolcanic_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_FRAME(1, 36),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_GastrodonVolcanic_1[] =
+{
+    ANIMCMD_FRAME(0, 30),
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_ShellosDeep_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_FRAME(1, 36),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_GastrodonDeep_1[] =
+{
+    ANIMCMD_FRAME(0, 30),
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
 #endif //P_FAMILY_SHELLOS
 
 #if P_FAMILY_DRIFLOON
@@ -5893,6 +5925,15 @@ static const union AnimCmd sAnim_Drapion_1[] =
 
 #if P_FAMILY_CROAGUNK
 static const union AnimCmd sAnim_Croagunk_1[] =
+{
+    ANIMCMD_FRAME(0, 3),
+    ANIMCMD_FRAME(1, 50),
+    ANIMCMD_FRAME(1, 28),
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_CroagunkHoenn_1[] =
 {
     ANIMCMD_FRAME(0, 3),
     ANIMCMD_FRAME(1, 50),
@@ -7805,7 +7846,32 @@ static const union AnimCmd sAnim_Larvesta_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_LarvestaHoenn_1[] =
+{
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_Volcarona_1[] =
+{
+    ANIMCMD_FRAME(1, 25),
+    ANIMCMD_FRAME(0, 25),
+    ANIMCMD_FRAME(1, 25),
+    ANIMCMD_FRAME(0, 25),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_VolcaronaHoenn_1[] =
 {
     ANIMCMD_FRAME(1, 25),
     ANIMCMD_FRAME(0, 25),
@@ -9122,6 +9188,30 @@ PLACEHOLDER_ANIM_SINGLE_FRAME(Fomantis);
 PLACEHOLDER_ANIM_SINGLE_FRAME(Lurantis);
 #endif //P_FAMILY_FOMANTIS
 
+static const union AnimCmd sAnim_LurantisHoenn_1[] =
+{
+    ANIMCMD_FRAME(0, 30),
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_SentretHoenn_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 30),
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_FurretHoenn_1[] =
+{
+    ANIMCMD_FRAME(0, 30),
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
 #if P_FAMILY_MORELULL
 PLACEHOLDER_ANIM_SINGLE_FRAME(Morelull);
 PLACEHOLDER_ANIM_SINGLE_FRAME(Shiinotic);
@@ -10140,6 +10230,191 @@ PLACEHOLDER_ANIM_SINGLE_FRAME(TerapagosStellar);
 #if P_FAMILY_PECHARUNT
 PLACEHOLDER_ANIM_SINGLE_FRAME(Pecharunt);
 #endif //P_FAMILY_PECHARUNT
+
+static const union AnimCmd sAnim_Picassoul_1[] =
+{
+    ANIMCMD_FRAME(0, 20),
+	ANIMCMD_FRAME(1, 20),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_FRAME(1, 20),
+	ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Drampelea_1[] =
+{
+    ANIMCMD_FRAME(1, 60),
+	ANIMCMD_FRAME(1, 40),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Kramperd_1[] =
+{
+    ANIMCMD_FRAME(1, 60),
+	ANIMCMD_FRAME(1, 60),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Ecteon_1[] =
+{
+    ANIMCMD_FRAME(1, 40),
+    ANIMCMD_FRAME(0, 30),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Corrodal_1[] =
+{
+    ANIMCMD_FRAME(1, 15),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Magnela_1[] =
+{
+	ANIMCMD_FRAME(1, 20),
+    ANIMCMD_FRAME(0, 10),
+	ANIMCMD_FRAME(1, 20),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 20),
+    ANIMCMD_FRAME(0, 10),
+	ANIMCMD_FRAME(1, 40),
+    ANIMCMD_FRAME(0, 10),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Multiplee_1[] =
+{	
+	ANIMCMD_FRAME(1, 48),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Dividi_1[] =
+{
+    ANIMCMD_FRAME(0, 10),	
+	ANIMCMD_FRAME(1, 55),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Lumister_1[] =
+{
+    ANIMCMD_FRAME(0, 10),	
+	ANIMCMD_FRAME(1, 45),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Vantern_1[] =
+{
+    ANIMCMD_FRAME(0, 10),	
+	ANIMCMD_FRAME(1, 45),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Luvsic_1[] =
+{
+    ANIMCMD_FRAME(0, 10),	
+	ANIMCMD_FRAME(1, 45),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Celesteon_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 10),
+	ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Allnown_1[] =
+{
+    ANIMCMD_FRAME(0, 26),
+    ANIMCMD_FRAME(1, 48),
+    ANIMCMD_FRAME(0, 33),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Fossilisk_1[] =
+{
+    ANIMCMD_FRAME(0, 10),
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Solumbra_1[] =
+{
+    ANIMCMD_FRAME(0, 10),
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 10),
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Telluna_1[] =
+{
+    ANIMCMD_FRAME(0, 10),
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(1, 20),
+	ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Nuumitan_1[] =
+{
+    ANIMCMD_FRAME(1, 40),
+    ANIMCMD_FRAME(0, 30),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Mandiguile_1[] =
+{
+	ANIMCMD_FRAME(1, 48),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Mesmelynx_1[] =
+{
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 46),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Regiflare_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Slyfetchd_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Frigitoad_1[] =
+{
+    ANIMCMD_FRAME(1, 48),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Fluttret_1[] =
+{
+    ANIMCMD_FRAME(1, 60),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
 
 static const union AnimCmd sAnim_Egg_1[] =
 {
@@ -11454,6 +11729,10 @@ SINGLE_ANIMATION(CherrimSunshine);
 #if P_FAMILY_SHELLOS
 SINGLE_ANIMATION(Shellos);
 SINGLE_ANIMATION(Gastrodon);
+SINGLE_ANIMATION(ShellosVolcanic);
+SINGLE_ANIMATION(GastrodonVolcanic);
+SINGLE_ANIMATION(ShellosDeep);
+SINGLE_ANIMATION(GastrodonDeep);
 #endif //P_FAMILY_SHELLOS
 #if P_FAMILY_DRIFLOON
 SINGLE_ANIMATION(Drifloon);
@@ -11509,6 +11788,7 @@ SINGLE_ANIMATION(Drapion);
 #endif //P_FAMILY_SKORUPI
 #if P_FAMILY_CROAGUNK
 SINGLE_ANIMATION(Croagunk);
+SINGLE_ANIMATION(CroagunkHoenn);
 SINGLE_ANIMATION(Toxicroak);
 #endif //P_FAMILY_CROAGUNK
 #if P_FAMILY_CARNIVINE
@@ -11897,7 +12177,9 @@ SINGLE_ANIMATION(Hydreigon);
 #endif //P_FAMILY_DEINO
 #if P_FAMILY_LARVESTA
 SINGLE_ANIMATION(Larvesta);
+SINGLE_ANIMATION(LarvestaHoenn);
 SINGLE_ANIMATION(Volcarona);
+SINGLE_ANIMATION(VolcaronaHoenn);
 #endif //P_FAMILY_LARVESTA
 #if P_FAMILY_COBALION
 SINGLE_ANIMATION(Cobalion);
@@ -12173,6 +12455,9 @@ SINGLE_ANIMATION(Araquanid);
 SINGLE_ANIMATION(Fomantis);
 SINGLE_ANIMATION(Lurantis);
 #endif //P_FAMILY_FOMANTIS
+SINGLE_ANIMATION(LurantisHoenn);
+SINGLE_ANIMATION(SentretHoenn);
+SINGLE_ANIMATION(FurretHoenn);
 #if P_FAMILY_MORELULL
 SINGLE_ANIMATION(Morelull);
 SINGLE_ANIMATION(Shiinotic);
@@ -12814,4 +13099,27 @@ SINGLE_ANIMATION(TerapagosStellar);
 #if P_FAMILY_PECHARUNT
 SINGLE_ANIMATION(Pecharunt);
 #endif //P_FAMILY_PECHARUNT
+SINGLE_ANIMATION(Picassoul);
+SINGLE_ANIMATION(Drampelea);
+SINGLE_ANIMATION(Kramperd);
+SINGLE_ANIMATION(Ecteon);
+SINGLE_ANIMATION(Corrodal);
+SINGLE_ANIMATION(Magnela);
+SINGLE_ANIMATION(Multiplee);
+SINGLE_ANIMATION(Dividi);
+SINGLE_ANIMATION(Lumister);
+SINGLE_ANIMATION(Vantern);
+SINGLE_ANIMATION(Luvsic);
+SINGLE_ANIMATION(Celesteon);
+SINGLE_ANIMATION(Allnown);
+SINGLE_ANIMATION(Fossilisk);
+SINGLE_ANIMATION(Solumbra);
+SINGLE_ANIMATION(Telluna);
+SINGLE_ANIMATION(Nuumitan);
+SINGLE_ANIMATION(Mandiguile);
+SINGLE_ANIMATION(Mesmelynx);
+SINGLE_ANIMATION(Regiflare);
+SINGLE_ANIMATION(Slyfetchd);
+SINGLE_ANIMATION(Frigitoad);
+SINGLE_ANIMATION(Fluttret);
 SINGLE_ANIMATION(Egg);

@@ -10671,6 +10671,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .teachableLearnset = sLarvestaTeachableLearnset,
         .eggMoveLearnset = sLarvestaEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 59, SPECIES_VOLCARONA}),
+        .formSpeciesIdTable = sLarvestaFormSpeciesIdTable,
     },
 
     [SPECIES_VOLCARONA] =
@@ -10734,6 +10735,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         )
         .levelUpLearnset = sVolcaronaLevelUpLearnset,
         .teachableLearnset = sVolcaronaTeachableLearnset,
+        .formSpeciesIdTable = sVolcaronaFormSpeciesIdTable,
     },
 #endif //P_FAMILY_LARVESTA
 

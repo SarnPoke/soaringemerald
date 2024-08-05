@@ -1628,8 +1628,44 @@
 #define SPECIES_URSHIFU_SINGLE_STRIKE_STYLE_GIGANTAMAX  1521
 #define SPECIES_URSHIFU_RAPID_STRIKE_STYLE_GIGANTAMAX   1522
 #define SPECIES_MIMIKYU_TOTEM_BUSTED                    1523
+#define SPECIES_PICASSOUL               1524
+#define SPECIES_DRAMPELEA               1525
+#define SPECIES_KRAMPERD                1526
+#define SPECIES_ECTEON                  1527
+#define SPECIES_CORRODAL                1528
+#define SPECIES_MAGNELA                 1529
+#define SPECIES_MULTIPLEE               1530
+#define SPECIES_DIVIDI                  1531
+#define SPECIES_LUMISTER                1532
+#define SPECIES_VANTERN                 1533
+#define SPECIES_LUVSIC                  1534
+#define SPECIES_CELESTEON               1535
+#define SPECIES_ALLNOWN                 1536
+#define SPECIES_FOSSILISK               1537
+#define SPECIES_SOLUMBRA                1538
+#define SPECIES_TELLUNA                 1539
+#define SPECIES_NUUMITAN                1540
+#define SPECIES_MANDIGUILE              1541
+#define SPECIES_MESMELYNX               1542
+#define SPECIES_REGIFLARE               1543
+#define SPECIES_SLYFETCHD               1544
+#define SPECIES_FRIGITOAD               1545
+#define SPECIES_FLUTTRET                1546
+#define SPECIES_SHELLOS_VOLCANIC        1547
+#define SPECIES_SHELLOS_DEEP             1548
+#define SPECIES_GASTRODON_VOLCANIC       1549
+#define SPECIES_GASTRODON_DEEP           1550
+#define SPECIES_LARVESTA_HOENN           1551
+#define SPECIES_VOLCARONA_HOENN          1552
+#define SPECIES_CROAGUNK_HOENN           1553
+#define SPECIES_LURANTIS_HOENN           1554
+#define SPECIES_SENTRET_HOENN            1555
+#define SPECIES_FURRET_HOENN             1556
+#define SPECIES_NUUMITAN_SAPPHIRE             1557
+#define SPECIES_NUUMITAN_EMERALD            1558
 
-#define SPECIES_EGG (SPECIES_MIMIKYU_TOTEM_BUSTED + 1)
+
+#define SPECIES_EGG (SPECIES_NUUMITAN_EMERALD + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

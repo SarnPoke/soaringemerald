@@ -2709,7 +2709,8 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .teachableLearnset = sFomantisTeachableLearnset,
         .eggMoveLearnset = sFomantisEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL_DAY, 34, SPECIES_LURANTIS},
-                                {EVO_NONE, 0, SPECIES_LURANTIS_TOTEM}),
+                                {EVO_NONE, 0, SPECIES_LURANTIS_TOTEM},
+                                {EVO_LEVEL, 34, SPECIES_LURANTIS_HOENN}),
     },
 
     [SPECIES_LURANTIS] =

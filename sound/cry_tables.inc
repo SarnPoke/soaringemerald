@@ -2424,6 +2424,29 @@ gCryTable::
 .if P_FAMILY_PECHARUNT == TRUE
 	cry Cry_Pecharunt
 .endif @ P_FAMILY_PECHARUNT
+	cry Cry_Picassoul
+	cry Cry_Drampelea
+	cry Cry_Kramperd
+	cry Cry_Ecteon
+	cry Cry_Corrodal
+	cry Cry_Magnela
+	cry Cry_Multiplee
+	cry Cry_Dividi
+	cry Cry_Lumister
+	cry Cry_Vantern
+	cry Cry_Luvsic
+	cry Cry_Celesteon
+	cry Cry_Allnown
+	cry Cry_Fossilisk
+	cry Cry_Solumbra
+	cry Cry_Telluna
+	cry Cry_Nuumitan
+	cry Cry_Mandiguile
+	cry Cry_Mesmelynx
+	cry Cry_Regiflare
+	cry Cry_Slyfetchd
+	cry Cry_Frigitoad
+	cry Cry_Fluttret
 .endif @ P_CRIES_ENABLED
 
 	.align 2
@@ -4852,4 +4875,27 @@ gCryTable_Reverse::
 .if P_FAMILY_PECHARUNT == TRUE
 	cry_reverse Cry_Pecharunt
 .endif @ P_FAMILY_PECHARUNT
+	cry_reverse Cry_Picassoul
+	cry_reverse Cry_Drampelea
+	cry_reverse Cry_Kramperd
+	cry_reverse Cry_Ecteon
+	cry_reverse Cry_Corrodal
+	cry_reverse Cry_Magnela
+	cry_reverse Cry_Multiplee
+	cry_reverse Cry_Dividi
+	cry_reverse Cry_Lumister
+	cry_reverse Cry_Vantern
+	cry_reverse Cry_Luvsic
+	cry_reverse Cry_Celesteon
+	cry_reverse Cry_Allnown
+	cry_reverse Cry_Fossilisk
+	cry_reverse Cry_Solumbra
+	cry_reverse Cry_Telluna
+	cry_reverse Cry_Nuumitan
+	cry_reverse Cry_Mandiguile
+	cry_reverse Cry_Mesmelynx
+	cry_reverse Cry_Regiflare
+	cry_reverse Cry_Slyfetchd
+	cry_reverse Cry_Frigitoad
+	cry_reverse Cry_Fluttret
 .endif @ P_CRIES_ENABLED

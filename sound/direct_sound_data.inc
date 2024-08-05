@@ -6157,6 +6157,98 @@ Cry_Pecharunt::
 .endif @ P_CRIES_ENABLED
 
 	.align 2
+Cry_Picassoul::
+	.incbin "sound/direct_sound_samples/cries/picassoul.bin"
+
+	.align 2
+Cry_Drampelea::
+	.incbin "sound/direct_sound_samples/cries/drampelea.bin"
+
+	.align 2
+Cry_Kramperd::
+	.incbin "sound/direct_sound_samples/cries/kramperd.bin"
+
+	.align 2
+Cry_Ecteon::
+	.incbin "sound/direct_sound_samples/cries/ecteon.bin"
+
+	.align 2
+Cry_Corrodal::
+	.incbin "sound/direct_sound_samples/cries/corrodal.bin"
+
+	.align 2
+Cry_Magnela::
+	.incbin "sound/direct_sound_samples/cries/magnela.bin"
+
+	.align 2
+Cry_Multiplee::
+	.incbin "sound/direct_sound_samples/cries/multiplee.bin"
+
+	.align 2
+Cry_Dividi::
+	.incbin "sound/direct_sound_samples/cries/dividi.bin"
+
+	.align 2
+Cry_Lumister::
+	.incbin "sound/direct_sound_samples/cries/lumister.bin"
+
+	.align 2
+Cry_Vantern::
+	.incbin "sound/direct_sound_samples/cries/vantern.bin"
+
+	.align 2
+Cry_Luvsic::
+	.incbin "sound/direct_sound_samples/cries/luvsic.bin"
+
+	.align 2
+Cry_Celesteon::
+	.incbin "sound/direct_sound_samples/cries/celesteon.bin"
+
+	.align 2
+Cry_Allnown::
+	.incbin "sound/direct_sound_samples/cries/allnown.bin"
+
+	.align 2
+Cry_Fossilisk::
+	.incbin "sound/direct_sound_samples/cries/fossilisk.bin"
+
+	.align 2
+Cry_Solumbra::
+	.incbin "sound/direct_sound_samples/cries/solumbra.bin"
+
+	.align 2
+Cry_Telluna::
+	.incbin "sound/direct_sound_samples/cries/telluna.bin"
+
+	.align 2
+Cry_Nuumitan::
+	.incbin "sound/direct_sound_samples/cries/nuumitan.bin"
+
+	.align 2
+Cry_Mandiguile::
+	.incbin "sound/direct_sound_samples/cries/mandiguile.bin"
+
+	.align 2
+Cry_Mesmelynx::
+	.incbin "sound/direct_sound_samples/cries/mesmelynx.bin"
+
+	.align 2
+Cry_Regiflare::
+	.incbin "sound/direct_sound_samples/cries/ditto.bin"
+
+	.align 2
+Cry_Slyfetchd::
+	.incbin "sound/direct_sound_samples/cries/ditto.bin"
+
+	.align 2
+Cry_Frigitoad::
+	.incbin "sound/direct_sound_samples/cries/frigitoad.bin"
+
+	.align 2
+Cry_Fluttret::
+	.incbin "sound/direct_sound_samples/cries/ditto.bin"
+
+	.align 2
 DirectSoundWaveData_register_noise::
 	.incbin "sound/direct_sound_samples/register_noise.bin"
 
