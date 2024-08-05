@@ -3092,6 +3092,7 @@ Move_CHATTER::
 	clearmonbg ANIM_DEF_PARTNER
 	end
 
+Move_ORIGIN_POWER::
 Move_JUDGMENT::
 	loadspritegfx ANIM_TAG_HANDS_AND_FEET
 	loadspritegfx ANIM_TAG_CIRCLE_OF_LIGHT
@@ -3673,6 +3674,7 @@ Move_MAGMA_STORM::
 	blendoff
 	end
 
+Move_BLACK_HOLE::
 Move_DARK_VOID::
 	loadspritegfx ANIM_TAG_WHITE_SHADOW @Destiny Bond
 	loadspritegfx ANIM_TAG_QUICK_GUARD_HAND @Black Colour
@@ -23541,6 +23543,60 @@ Move_OCTAZOOKA::
 	createsprite gOctazookaSmokeSpriteTemplate, ANIM_TARGET, 2, -8, 8, 1, 0
 	waitforvisualfinish
 	end
+
+Move_GAMMA_BLAST::
+	goto Move_HYPER_BEAM
+
+Move_STELLAR_CRASH::
+	goto Move_SUNSTEEL_STRIKE
+
+Move_SUPERNOVA::
+	goto Move_EXPLOSION
+
+Move_PARTICLE_RAY::
+	goto Move_SIGNAL_BEAM
+
+Move_NEUTRON_SLAM::
+	goto Move_METEOR_ASSAULT
+
+Move_ASTRAL_BLOW::
+	goto Move_METEOR_MASH
+
+Move_METEOR_SHOWER::
+	goto Move_ERUPTION
+
+Move_LIGHT_SPEED::
+	goto Move_EXTREME_SPEED
+
+Move_GALAXY_PULSE::
+	goto Move_DRAGON_PULSE
+
+Move_PARADOX::
+	goto Move_AMNESIA
+
+Move_RADIATION::
+	goto Move_FLASH
+
+Move_COSMIC_FORCE::
+	goto Move_COSMIC_POWER
+
+Move_STARRY_LIGHT::
+	goto Move_AURORA_BEAM
+	
+Move_COSMIC_PUNCH::
+	goto Move_METEOR_MASH
+
+Move_TWINKLE::
+	goto Move_SWIFT
+
+Move_COMET_RUSH::
+	goto Move_QUICK_ATTACK
+
+Move_ARC_SLICER::
+	goto Move_SACRED_SWORD
+
+Move_GAUSS_FLING::
+	goto Move_DIAMOND_STORM
 
 Move_MIST::
 	loadspritegfx ANIM_TAG_MIST_CLOUD

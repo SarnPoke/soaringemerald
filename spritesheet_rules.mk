@@ -3720,6 +3720,12 @@ $(POKEMONGFXDIR)/shellos/east_sea/overworld.4bpp: %.4bpp: %.png
 $(POKEMONGFXDIR)/gastrodon/east_sea/overworld.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
+$(POKEMONGFXDIR)/gastrodon/volcanic/overworld.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(POKEMONGFXDIR)/gastrodon/deep/overworld.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
 $(POKEMONGFXDIR)/rotom/heat/overworld.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 

@@ -51,7 +51,57 @@
     F(STEEL_WING) \
     F(SKILL_SWAP) \
     F(SNATCH) \
-    F(OVERHEAT)
+    F(OVERHEAT) \
+    F(WILL_O_WISP) \
+    F(STEEL_BEAM) \
+    F(STOMPING_TANTRUM) \
+    F(FALSE_SWIPE) \
+    F(BRINE) \
+    F(SHADOW_CLAW) \
+    F(DARK_PULSE) \
+    F(FLASH_CANNON) \
+    F(LIQUIDATION) \
+    F(POISON_JAB) \
+    F(TRICK_ROOM) \
+    F(HEX) \
+    F(BODY_PRESS) \
+    F(CHARGE_BEAM) \
+    F(STRUGGLE_BUG) \
+    F(FROST_BREATH) \
+    F(MISTY_TERRAIN) \
+    F(GRASSY_TERRAIN) \
+    F(PSYCHIC_TERRAIN) \
+    F(ELECTRIC_TERRAIN) \
+    F(U_TURN) \
+    F(TRIPLE_AXEL) \
+    F(THUNDER_WAVE) \
+    F(PARADOX) \
+    F(X_SCISSOR) \
+    F(ROCK_SLIDE) \
+    F(CROSS_POISON) \
+    F(DRAGON_TAIL) \
+    F(NASTY_PLOT) \
+    F(BUG_BUZZ) \
+    F(ARC_SLICER) \
+    F(SWAGGER) \
+    F(AIR_CUTTER) \
+    F(DAZZLING_GLEAM) \
+    F(FLAME_CHARGE) \
+    F(SWORDS_DANCE) \
+    F(STORED_POWER) \
+    F(LEAF_STORM) \
+    F(MEGAHORN) \
+    F(AURA_SPHERE) \
+    F(HYDRO_PUMP) \
+    F(GAMMA_BLAST) \
+    F(BRAVE_BIRD) \
+    F(DRACO_METEOR) \
+    F(FIRE_FANG) \
+    F(THUNDER_FANG) \
+    F(ICE_FANG) \
+    F(BLAST_BURN) \
+    F(FRENZY_PLANT) \
+    F(HYDRO_CANNON) 
 
 #define FOREACH_HM(F) \
     F(CUT) \

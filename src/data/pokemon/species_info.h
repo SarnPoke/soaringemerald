@@ -1885,12 +1885,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconPalIndex = 0,
         FOOTPRINT(Gastrodon)
         OVERWORLD(
-            sPicTable_GastrodonWestSea,
+            sPicTable_GastrodonVolcanic,
             SIZE_32x32,
             SHADOW_SIZE_M,
             TRACKS_FOOT,
-            gOverworldPalette_GastrodonWestSea,
-            gShinyOverworldPalette_GastrodonWestSea
+            gOverworldPalette_GastrodonVolcanic,
+            gShinyOverworldPalette_GastrodonVolcanic
         )
         .levelUpLearnset = sGastrodonVolcanicLevelUpLearnset,
         .teachableLearnset = sGastrodonVolcanicTeachableLearnset,
@@ -1946,12 +1946,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconPalIndex = 0,
         FOOTPRINT(Gastrodon)
         OVERWORLD(
-            sPicTable_GastrodonEastSea,
+            sPicTable_GastrodonDeep,
             SIZE_32x32,
             SHADOW_SIZE_M,
             TRACKS_FOOT,
-            gOverworldPalette_GastrodonEastSea,
-            gShinyOverworldPalette_GastrodonEastSea
+            gOverworldPalette_GastrodonDeep,
+            gShinyOverworldPalette_GastrodonDeep
         )
         .levelUpLearnset = sGastrodonDeepLevelUpLearnset,
         .teachableLearnset = sGastrodonDeepTeachableLearnset,

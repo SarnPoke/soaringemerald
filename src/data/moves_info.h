@@ -20669,6 +20669,477 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .battleAnimScript = Move_MALIGNANT_CHAIN,
     },
 
+    // New moves
+
+    [MOVE_GAMMA_BLAST] =
+    {
+        .effect = EFFECT_HIT,
+        .name = COMPOUND_STRING("Gamma Blast"),
+        .description = COMPOUND_STRING(
+            "Emits a strong gamma beam at\n"
+            "foe. Sharply lowers Sp. Atk."),
+        .power = 130,
+        .type = TYPE_COSMIC,
+        .accuracy = 100,
+        .pp = 5,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        //.makesContact = FALSE,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_SP_ATK_MINUS_2,
+            .self = TRUE,
+        }),
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_GAMMA_BLAST,
+    },
+
+    [MOVE_STELLAR_CRASH] =
+    {
+        .effect = EFFECT_HIT,
+        .name = COMPOUND_STRING("Stellar Crash"),
+        .description = COMPOUND_STRING(
+            "User crashes into the target.\n"
+            "Also hurts the user."),
+        .power = 120,
+        .type = TYPE_COSMIC,
+        .accuracy = 100,
+        .pp = 15,
+        .recoil = 33,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .makesContact = TRUE,
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_STELLAR_CRASH,
+    },
+
+    [MOVE_SUPERNOVA] =
+    {
+        .effect = EFFECT_EXPLOSION,
+        .name = COMPOUND_STRING("Supernova"),
+        .description = COMPOUND_STRING(
+            "The user collapses into a\n"
+            "supernova. Faints the user."),
+        .power = 200,
+        .type = TYPE_COSMIC,
+        .accuracy = 100,
+        .pp = 5,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        //.makesContact = FALSE,
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_SUPERNOVA,
+    },
+
+    [MOVE_PARTICLE_RAY] =
+    {
+        .effect = EFFECT_HIT,
+        .name = COMPOUND_STRING("Particle Ray"),
+        .description = COMPOUND_STRING(
+            "A ray of particles is shot at\n"
+            "the foe. May confuse."),
+        .power = 40,
+        .type = TYPE_COSMIC,
+        .accuracy = 100,
+        .pp = 25,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        //.makesContact = FALSE,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_CONFUSION,
+            .chance = 10,
+        }),
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_PARTICLE_RAY,
+    },
+
+    [MOVE_NEUTRON_SLAM] =
+    {
+        .effect = EFFECT_HIT,
+        .name = COMPOUND_STRING("Neutron Slam"),
+        .description = COMPOUND_STRING(
+            "The user strikes the foe with\n"
+            "a force that cannot miss."),
+        .power = 60,
+        .type = TYPE_COSMIC,
+        .accuracy = 0,
+        .pp = 15,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .makesContact = TRUE,
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_NEUTRON_SLAM,
+    },
+
+    [MOVE_ASTRAL_BLOW] =
+    {
+        .effect = EFFECT_HIT,
+        .name = COMPOUND_STRING("Astral Blow"),
+        .description = COMPOUND_STRING(
+            "Attacks with a strong cosmic\n"
+            "power."),
+        .power = 80,
+        .type = TYPE_COSMIC,
+        .accuracy = 100,
+        .pp = 10,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .makesContact = TRUE,
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_ASTRAL_BLOW,
+    },
+
+    [MOVE_METEOR_SHOWER] =
+    {
+        .effect = EFFECT_HIT,
+        .name = COMPOUND_STRING("MeteorShower"),
+        .description = COMPOUND_STRING(
+            "Meteors rain from that sky\n"
+            "to hit all enemy Pokémon."),
+        .power = 90,
+        .type = TYPE_COSMIC,
+        .accuracy = 100,
+        .pp = 5,
+        .target = MOVE_TARGET_BOTH,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        //.makesContact = FALSE,
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_METEOR_SHOWER,
+    },
+
+    [MOVE_LIGHT_SPEED] =
+    {
+        .effect = EFFECT_HIT,
+        .name = COMPOUND_STRING("Light Speed"),
+        .description = COMPOUND_STRING(
+            "Attacks with a force so quick\n"
+            "that it'll usually move first."),
+        .power = 80,
+        .type = TYPE_COSMIC,
+        .accuracy = 100,
+        .pp = 5,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 2,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        //.makesContact = FALSE,
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_LIGHT_SPEED,
+    },
+
+    [MOVE_GALAXY_PULSE] =
+    {
+        .effect = EFFECT_HIT,
+        .name = COMPOUND_STRING("GalaxyPulse"),
+        .description = COMPOUND_STRING(
+            "Attacks with a galactic power.\n"
+            "May cause flinching."),
+        .power = 80,
+        .type = TYPE_COSMIC,
+        .accuracy = 100,
+        .pp = 15,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        //.makesContact = FALSE,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_FLINCH,
+            .chance = 20,
+        }),
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_GALAXY_PULSE,
+    },
+
+    [MOVE_PARADOX] =
+    {
+        .effect = EFFECT_CONFUSE,
+        .name = COMPOUND_STRING("Paradox"),
+        .description = COMPOUND_STRING(
+            "The user presents a paradox\n"
+            "to the foe that confuses it."),
+        .power = 0,
+        .type = TYPE_COSMIC,
+        .accuracy = 100,
+        .pp = 15,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_STATUS,
+        //.makesContact = FALSE,
+        .magicCoatAffected = TRUE,
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_PARADOX,
+    },
+
+    [MOVE_RADIATION] =
+    {
+        .effect = EFFECT_WILL_O_WISP,
+        .name = COMPOUND_STRING("Radiation"),
+        .description = COMPOUND_STRING(
+            "Emits strong radiation that\n"
+            "burns the opponent."),
+        .power = 0,
+        .type = TYPE_COSMIC,
+        .accuracy = 90,
+        .pp = 15,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_STATUS,
+        //.makesContact = FALSE,
+        .magicCoatAffected = TRUE,
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_RADIATION,
+    },
+
+    [MOVE_COSMIC_FORCE] =
+    {
+        .effect = EFFECT_GROWTH,
+        .name = COMPOUND_STRING("Cosmic Force"),
+        .description = COMPOUND_STRING(
+            "Raises Attack and Sp. Atk\n"
+            "with a mystic force."),
+        .power = 0,
+        .type = TYPE_COSMIC,
+        .accuracy = 0,
+        .pp = 20,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_STATUS,
+        //.makesContact = FALSE,
+        .snatchAffected = TRUE,
+        .ignoresProtect = TRUE,
+        .mirrorMoveBanned = TRUE,
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_COSMIC_FORCE,
+    },
+
+    [MOVE_STARRY_LIGHT] =
+    {
+        .effect = EFFECT_HIT,
+        .name = COMPOUND_STRING("StarryLight"),
+        .description = COMPOUND_STRING(
+            "Flashes a bright light\n"
+            "that may confuse the foe."),
+        .power = 50,
+        .type = TYPE_COSMIC,
+        .accuracy = 95,
+        .pp = 25,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        //.makesContact = FALSE,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_CONFUSION,
+            .chance = 20,
+        }),
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_STARRY_LIGHT,
+    },
+
+    [MOVE_COSMIC_PUNCH] =
+    {
+        .effect = EFFECT_HIT,
+        .name = COMPOUND_STRING("CosmicPunch"),
+        .description = COMPOUND_STRING(
+            "A celestial punch that\n"
+            "may confuse the foe."),
+        .power = 75,
+        .type = TYPE_COSMIC,
+        .accuracy = 100,
+        .pp = 15,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .makesContact = TRUE,
+        .punchingMove = TRUE,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_CONFUSION,
+            .chance = 10,
+        }),
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_COSMIC_PUNCH,
+    },
+
+    [MOVE_TWINKLE] =
+    {
+        .effect = EFFECT_HIT,
+        .name = COMPOUND_STRING("Twinkle"),
+        .description = COMPOUND_STRING(
+            "Shoots small stars to\n"
+            "attack the foe."),
+        .power = 40,
+        .type = TYPE_COSMIC,
+        .accuracy = 100,
+        .pp = 25,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        //.makesContact = FALSE,
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_TWINKLE,
+    },
+
+    [MOVE_COMET_RUSH] =
+    {
+        .effect = EFFECT_HIT,
+        .name = COMPOUND_STRING("Comet Rush"),
+        .description = COMPOUND_STRING(
+            "Moves as fast as a comet.\n"
+            "Usually moves first."),
+        .power = 40,
+        .type = TYPE_COSMIC,
+        .accuracy = 100,
+        .pp = 30,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 1,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .makesContact = TRUE,
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_COMET_RUSH,
+    },
+
+    [MOVE_ARC_SLICER] =
+    {
+        .effect = EFFECT_HIT,
+        .name = COMPOUND_STRING("Arc Slicer"),
+        .description = COMPOUND_STRING(
+            "The user slices the target.\n"
+            "High critical-hit ratio."),
+        .power = 55,
+        .type = TYPE_COSMIC,
+        .accuracy = 95,
+        .pp = 25,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .makesContact = TRUE,
+        .slicingMove = TRUE,
+        .criticalHitStage = 1,
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_ARC_SLICER,
+    },
+
+    [MOVE_GAUSS_FLING] =
+    {
+        .effect = EFFECT_HIT,
+        .name = COMPOUND_STRING("Gauss Fling"),
+        .description = COMPOUND_STRING(
+            "The user throws space debris\n"
+            "at the foe to attack."),
+        .power = 50,
+        .type = TYPE_COSMIC,
+        .accuracy = 90,
+        .pp = 15,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        //.makesContact = FALSE,
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_GAUSS_FLING,
+    },
+
+    [MOVE_BLACK_HOLE] =
+    {
+        .effect = EFFECT_OHKO,
+        .name = COMPOUND_STRING("Black Hole"),
+        .description = COMPOUND_STRING(
+            "A one-hit KO move that sucks\n"
+            "the foe into a Black Hole."),
+        .power = 1,
+        .type = TYPE_COSMIC,
+        .accuracy = 30,
+        .pp = 5,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        //.makesContact = FALSE,
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_BLACK_HOLE,
+    },
+
+    [MOVE_ORIGIN_POWER] =
+    {
+        .effect = EFFECT_HIT,
+        .name = COMPOUND_STRING("Origin Power"),
+        .description = COMPOUND_STRING(
+            "This move always results in\n"
+            "a super-effective hit."),
+        .power = 40,
+        .type = TYPE_COSMIC,
+        .accuracy = 70,
+        .pp = 5,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        //.makesContact = FALSE,
+        .contestEffect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = Move_ORIGIN_POWER,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {

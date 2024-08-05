@@ -2815,6 +2815,12 @@ static const struct SpriteFrameImage sPicTable_GastrodonWestSea[] = {
 static const struct SpriteFrameImage sPicTable_GastrodonEastSea[] = {
     overworld_ascending_frames(gObjectEventPic_GastrodonEastSea, 4, 4),
 };
+static const struct SpriteFrameImage sPicTable_GastrodonVolcanic[] = {
+    overworld_ascending_frames(gObjectEventPic_GastrodonVolcanic, 4, 4),
+};
+static const struct SpriteFrameImage sPicTable_GastrodonDeep[] = {
+    overworld_ascending_frames(gObjectEventPic_GastrodonDeep, 4, 4),
+};
 #endif //P_FAMILY_SHELLOS
 
 #if P_FAMILY_DRIFLOON

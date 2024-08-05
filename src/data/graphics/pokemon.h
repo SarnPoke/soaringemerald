@@ -22232,6 +22232,17 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u32 gMonShinyPalette_GastrodonDeep[] = INCBIN_U32("graphics/pokemon/gastrodon/deep/shiny.gbapal.lz");
     const u8 gMonIcon_GastrodonDeep[] = INCBIN_U8("graphics/pokemon/gastrodon/deep/icon.4bpp");
 
+#if OW_POKEMON_OBJECT_EVENTS
+    const u32 gObjectEventPic_GastrodonVolcanic[] = INCBIN_COMP("graphics/pokemon/gastrodon/volcanic/overworld.4bpp");
+    const u32 gObjectEventPic_GastrodonDeep[] = INCBIN_COMP("graphics/pokemon/gastrodon/deep/overworld.4bpp");
+#if OW_PKMN_OBJECTS_SHARE_PALETTES == FALSE
+    const u32 gOverworldPalette_GastrodonVolcanic[] = INCBIN_U32("graphics/pokemon/gastrodon/volcanic/overworld_normal.gbapal.lz");
+    const u32 gOverworldPalette_GastrodonDeep[] = INCBIN_U32("graphics/pokemon/gastrodon/deep/overworld_normal.gbapal.lz");
+    const u32 gShinyOverworldPalette_GastrodonVolcanic[] = INCBIN_U32("graphics/pokemon/gastrodon/volcanic/overworld_shiny.gbapal.lz");
+    const u32 gShinyOverworldPalette_GastrodonDeep[] = INCBIN_U32("graphics/pokemon/gastrodon/deep/overworld_shiny.gbapal.lz");
+#endif //OW_PKMN_OBJECTS_SHARE_PALETTES
+#endif //OW_POKEMON_OBJECT_EVENTS
+
     const u32 gMonFrontPic_LarvestaHoenn[] = INCBIN_U32("graphics/pokemon/larvesta/hoenn/anim_front.4bpp.lz");
     const u32 gMonPalette_LarvestaHoenn[] = INCBIN_U32("graphics/pokemon/larvesta/hoenn/normal.gbapal.lz");
     const u32 gMonBackPic_LarvestaHoenn[] = INCBIN_U32("graphics/pokemon/larvesta/hoenn/back.4bpp.lz");
